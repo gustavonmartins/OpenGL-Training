@@ -1,0 +1,216 @@
+# depslib dependency file v1.0
+1445810972 source:d:\dev\projects\cpp\opengl learning buffers\gl_utils.cpp
+	"gl_utils.h"
+	<stdio.h>
+	<time.h>
+	<string.h>
+	<assert.h>
+
+1445810972 d:\dev\projects\cpp\opengl learning buffers\gl_utils.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<stdarg.h>
+
+1447538273 source:d:\dev\projects\cpp\opengl learning buffers\main.cpp
+	"gl_utils.h"
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<cmath>
+	<assert.h>
+	<iostream>
+	<SFML/System.hpp>
+
+1445810972 source:d:\dev\projects\cpp\opengl sb chap003\gl_utils.cpp
+	"gl_utils.h"
+	<stdio.h>
+	<time.h>
+	<string.h>
+	<assert.h>
+
+1445810972 d:\dev\projects\cpp\opengl sb chap003\gl_utils.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<stdarg.h>
+
+1454013944 source:d:\dev\projects\cpp\opengl sb chap003\main.cpp
+	"gl_utils.h"
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<cmath>
+	<assert.h>
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<SFML/System.hpp>
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/ext.hpp>
+
+1476811925 source:d:\dev\projects\cpp\puppieswar_r002\gl_utils.cpp
+	"gl_utils.h"
+	<stdio.h>
+	<time.h>
+	<string.h>
+	<assert.h>
+	<stdexcept>
+	<iostream>
+
+1476812511 d:\dev\projects\cpp\puppieswar_r002\gl_utils.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<stdarg.h>
+
+1457172654 source:d:\dev\projects\cpp\puppieswar_r002\gamecontroller.cpp
+	<GLFW/glfw3.h>
+
+1476910154 source:d:\dev\projects\cpp\puppieswar_r002\main.cpp
+	"gl_utils.h"
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<cmath>
+	<assert.h>
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<vector>
+	<SFML/System.hpp>
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/ext.hpp>
+	"Camera.h"
+	"Moveable.hpp"
+	"GameController.cpp"
+	"GLManager.cpp"
+	"graphics/gl/Mesh.h"
+	"graphics/gl/ShaderCompiler.h"
+
+1457172654 d:\dev\projects\cpp\puppieswar_r002\gamecontroller.cpp
+	<GLFW/glfw3.h>
+
+1455831598 source:d:\dev\projects\cpp\puppieswar_r002\updateable.cpp
+	<iostream>
+	<cmath>
+
+1454794331 source:d:\dev\projects\cpp\puppieswar_r002\game.cpp
+	<SFML/System.hpp>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<iostream>
+	<cmath>
+	<vector>
+	<functional>
+
+1476811993 source:d:\dev\projects\cpp\puppieswar_r002\glmanager.cpp
+	<glad/glad.h>
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+
+1476811993 d:\dev\projects\cpp\puppieswar_r002\glmanager.cpp
+	<glad/glad.h>
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+
+1455831920 d:\dev\projects\cpp\puppieswar_r002\updateable.cpp
+	<iostream>
+	<cmath>
+
+1473459400 source:d:\dev\projects\cpp\puppieswar_r002\moveable.cpp
+	<iostream>
+	<cmath>
+
+1473459400 d:\dev\projects\cpp\puppieswar_r002\moveable.cpp
+	<iostream>
+	<cmath>
+
+1476743488 source:d:\dev\projects\cpp\puppieswar\src\graphics\gl\mesh.cpp
+	"Mesh.h"
+	<iostream>
+
+1476811763 d:\dev\projects\cpp\puppieswar\src\graphics\gl\mesh.h
+	<vector>
+	<glad/glad.h>
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/ext.hpp>
+	"I_Moveable.h"
+
+1476811799 d:\dev\projects\cpp\puppieswar\src\graphics\gl\shadercompiler.h
+	<glad/glad.h>
+	<string>
+	<vector>
+
+1476811809 source:d:\dev\projects\cpp\puppieswar\src\graphics\gl\shadercompiler.cpp
+	"ShaderCompiler.h"
+	<fstream>
+	<iostream>
+	<sstream>
+	<stdexcept>
+
+1476738533 source:d:\dev\projects\cpp\puppieswar_r002\camera.cpp
+	"Camera.h"
+	<iostream>
+
+1476811993 d:\dev\projects\cpp\puppieswar_r002\camera.h
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/ext.hpp>
+	<glad/glad.h>
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/ext.hpp>
+	"graphics/gl/Mesh.h"
+
+1473456634 d:\dev\projects\cpp\puppieswar_r002\mesh.h
+	<vector>
+	"GL/glew.h"
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/ext.hpp>
+
+1473456634 source:d:\dev\projects\cpp\puppieswar_r002\mesh.cpp
+	"Mesh.h"
+
+1473200281 source:d:\dev\projects\cpp\puppieswar_r002\shadercompiler.cpp
+	"ShaderCompiler.h"
+	<fstream>
+	<iostream>
+	<sstream>
+	<stdexcept>
+
+1473194343 d:\dev\projects\cpp\puppieswar_r002\shadercompiler.h
+	"GL/glew.h"
+	<string>
+	<vector>
+
+1469286081 source:d:\dev\projects\cpp\puppieswar\i_moveable.cpp
+	"I_Moveable.h"
+
+1476303052 d:\dev\projects\cpp\puppieswar\i_moveable.h
+
+1476302856 d:\dev\projects\cpp\puppieswar\moveable.hpp
+	<vector>
+	"I_Moveable.h"
+
+1476743156 source:d:\dev\projects\cpp\puppieswar\moveable.cpp
+	"Moveable.hpp"
+	<iostream>
+	<cmath>
+
+1476812387 source:c:\msys64\mingw64\include\glad\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+
