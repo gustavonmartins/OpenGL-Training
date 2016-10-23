@@ -6,26 +6,6 @@
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
-			<Target title="Debug">
-				<Option output="bin/Debug/OpenGL Superbible buffers" prefix_auto="1" extension_auto="1" />
-				<Option object_output="obj/Debug/" />
-				<Option type="1" />
-				<Option compiler="gcc" />
-				<Compiler>
-					<Add option="-g" />
-					<Add directory="puppieswar/src/" />
-					<Add directory="puppieswar_r002" />
-					<Add directory="../puppieswar/src" />
-					<Add directory="D:/dev/projects/cpp/puppieswar" />
-				</Compiler>
-				<Linker>
-					<Add library="C:/msys64/mingw64/lib/libglew32.dll.a" />
-					<Add library="C:/msys64/mingw64/lib/libglfw3.a" />
-					<Add library="opengl32" />
-					<Add library="C:/msys64/mingw64/lib/libsfml-system.dll.a" />
-					<Add library="gdi32" />
-				</Linker>
-			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/OpenGL Superbible buffers" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="bin/Release" />
@@ -34,16 +14,12 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
-					<Add directory="../puppieswar/src" />
-					<Add directory="puppieswar_r002" />
-					<Add directory="D:/dev/projects/cpp/puppieswar" />
+					<Add directory="../puppieswar" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
-					<Add library="C:/msys64/mingw64/lib/libglfw3.a" />
-					<Add library="opengl32" />
-					<Add library="C:/msys64/mingw64/lib/libsfml-system.dll.a" />
-					<Add library="gdi32" />
+					<Add library="glfw" />
+					<Add library="libsfml-system" />
 				</Linker>
 			</Target>
 		</Build>
@@ -51,15 +27,17 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="../puppieswar/I_Moveable.cpp" />
-		<Unit filename="../puppieswar/I_Moveable.h" />
-		<Unit filename="../puppieswar/Moveable.cpp" />
+		<Linker>
+			<Add library="libglfw" />
+		</Linker>
+		<Unit filename="../../../../../usr/include/glad/glad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../puppieswar/src/I_Moveable.cpp" />
+		<Unit filename="../puppieswar/src/Moveable.cpp" />
 		<Unit filename="../puppieswar/src/graphics/gl/Mesh.cpp" />
 		<Unit filename="../puppieswar/src/graphics/gl/Mesh.h" />
 		<Unit filename="../puppieswar/src/graphics/gl/ShaderCompiler.cpp" />
-		<Unit filename="C:/msys64/mingw64/include/glad/glad.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="Camera.cpp" />
 		<Unit filename="Camera.h" />
 		<Unit filename="GLManager.cpp" />

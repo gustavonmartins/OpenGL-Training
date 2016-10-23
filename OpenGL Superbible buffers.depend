@@ -6,6 +6,8 @@
 	<string.h>
 	<assert.h>
 
+1473194343 
+
 1445810972 d:\dev\projects\cpp\opengl learning buffers\gl_utils.h
 	<GL/glew.h>
 	<GLFW/glfw3.h>
@@ -19,6 +21,8 @@
 	<assert.h>
 	<iostream>
 	<SFML/System.hpp>
+
+1447538273 em.hpp>
 
 1445810972 source:d:\dev\projects\cpp\opengl sb chap003\gl_utils.cpp
 	"gl_utils.h"
@@ -48,6 +52,8 @@
 	<glm/gtc/matrix_transform.hpp>
 	<glm/ext.hpp>
 
+1473456634 pp>
+
 1476811925 source:d:\dev\projects\cpp\puppieswar_r002\gl_utils.cpp
 	"gl_utils.h"
 	<stdio.h>
@@ -64,6 +70,8 @@
 
 1457172654 source:d:\dev\projects\cpp\puppieswar_r002\gamecontroller.cpp
 	<GLFW/glfw3.h>
+
+1457172654 3.h>
 
 1476910154 source:d:\dev\projects\cpp\puppieswar_r002\main.cpp
 	"gl_utils.h"
@@ -88,6 +96,8 @@
 	"graphics/gl/Mesh.h"
 	"graphics/gl/ShaderCompiler.h"
 
+1476910154 gl/ShaderCompiler.h"
+
 1457172654 d:\dev\projects\cpp\puppieswar_r002\gamecontroller.cpp
 	<GLFW/glfw3.h>
 
@@ -103,6 +113,8 @@
 	<cmath>
 	<vector>
 	<functional>
+
+1454794331 l>
 
 1476811993 source:d:\dev\projects\cpp\puppieswar_r002\glmanager.cpp
 	<glad/glad.h>
@@ -143,6 +155,8 @@
 	<glm/ext.hpp>
 	"I_Moveable.h"
 
+1476302856 e.h"
+
 1476811799 d:\dev\projects\cpp\puppieswar\src\graphics\gl\shadercompiler.h
 	<glad/glad.h>
 	<string>
@@ -154,6 +168,8 @@
 	<iostream>
 	<sstream>
 	<stdexcept>
+
+1473200281 >
 
 1476738533 source:d:\dev\projects\cpp\puppieswar_r002\camera.cpp
 	"Camera.h"
@@ -170,6 +186,8 @@
 	<glm/gtc/matrix_transform.hpp>
 	<glm/ext.hpp>
 	"graphics/gl/Mesh.h"
+
+1476811993 gl/Mesh.h"
 
 1473456634 d:\dev\projects\cpp\puppieswar_r002\mesh.h
 	<vector>
@@ -209,6 +227,126 @@
 	<cmath>
 
 1476812387 source:c:\msys64\mingw64\include\glad\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+
+1476812387 .h>
+
+1477208110 source:/home/gustavo/Documents/Todelete/puppieswar/src/graphics/gl/Mesh.cpp
+	"Mesh.h"
+	<iostream>
+
+1477250490 /home/gustavo/Documents/Todelete/puppieswar/src/graphics/gl/Mesh.h
+	<vector>
+	<glad/glad.h>
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/ext.hpp>
+	"src/I_Moveable.h"
+
+1477208109 /home/gustavo/Documents/Todelete/puppieswar/src/I_Moveable.h
+
+1477208110 source:/home/gustavo/Documents/Todelete/puppieswar/src/graphics/gl/ShaderCompiler.cpp
+	"ShaderCompiler.h"
+	<fstream>
+	<iostream>
+	<sstream>
+	<stdexcept>
+
+1477208110 /home/gustavo/Documents/Todelete/puppieswar/src/graphics/gl/ShaderCompiler.h
+	<glad/glad.h>
+	<string>
+	<vector>
+
+1477208049 source:/home/gustavo/Documents/Todelete/OpenGL-Training/Camera.cpp
+	"Camera.h"
+	<iostream>
+
+1477250490 /home/gustavo/Documents/Todelete/OpenGL-Training/Camera.h
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/ext.hpp>
+	<glad/glad.h>
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/ext.hpp>
+	"src/graphics/gl/Mesh.h"
+
+1477208049 source:/home/gustavo/Documents/Todelete/OpenGL-Training/GameController.cpp
+	<GLFW/glfw3.h>
+
+1477252038 source:/home/gustavo/Documents/Todelete/OpenGL-Training/gl_utils.cpp
+	"gl_utils.h"
+	<stdio.h>
+	<time.h>
+	<string.h>
+	<assert.h>
+	<stdexcept>
+	<iostream>
+
+1477250490 /home/gustavo/Documents/Todelete/OpenGL-Training/gl_utils.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<stdarg.h>
+
+1477250490 source:/home/gustavo/Documents/Todelete/OpenGL-Training/GLManager.cpp
+	<glad/glad.h>
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+
+1477250490 source:/home/gustavo/Documents/Todelete/OpenGL-Training/main.cpp
+	"gl_utils.h"
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<cmath>
+	<assert.h>
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<vector>
+	<SFML/System.hpp>
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/ext.hpp>
+	"Camera.h"
+	"src/Moveable.hpp"
+	"GameController.cpp"
+	"GLManager.cpp"
+	"src/graphics/gl/Mesh.h"
+	"src/graphics/gl/ShaderCompiler.h"
+
+1477208109 /home/gustavo/Documents/Todelete/puppieswar/src/Moveable.hpp
+	<vector>
+	"I_Moveable.h"
+
+1477208049 /home/gustavo/Documents/Todelete/OpenGL-Training/GameController.cpp
+	<GLFW/glfw3.h>
+
+1477250490 /home/gustavo/Documents/Todelete/OpenGL-Training/GLManager.cpp
+	<glad/glad.h>
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+
+1477208109 source:/home/gustavo/Documents/Todelete/puppieswar/src/I_Moveable.cpp
+	"I_Moveable.h"
+
+1477208109 source:/home/gustavo/Documents/Todelete/puppieswar/src/Moveable.cpp
+	"Moveable.hpp"
+	<iostream>
+	<cmath>
+
+1477248255 source:/usr/include/glad/glad.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

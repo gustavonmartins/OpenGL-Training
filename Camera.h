@@ -12,7 +12,7 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/ext.hpp>
 
-#include "graphics/gl/Mesh.h"
+#include "src/graphics/gl/Mesh.h"
 
 class Camera {
 public:

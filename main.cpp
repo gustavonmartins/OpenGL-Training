@@ -29,13 +29,13 @@
 
 
 #include "Camera.h"
-#include "Moveable.hpp"
+#include "src/Moveable.hpp"
 
 #include "GameController.cpp"
 #include "GLManager.cpp"
 
-#include "graphics/gl/Mesh.h"
-#include "graphics/gl/ShaderCompiler.h"
+#include "src/graphics/gl/Mesh.h"
+#include "src/graphics/gl/ShaderCompiler.h"
 
 // keep track of window size for things like the viewport and the mouse cursor
 int g_gl_width = 800;
