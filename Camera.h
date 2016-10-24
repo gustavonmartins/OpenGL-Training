@@ -13,16 +13,16 @@
 #include <glm/ext.hpp>
 
 #include "src/graphics/gl/Mesh.h"
+#include "src/I_Moveable.h"
 
 class Camera {
 public:
     Camera();
     virtual ~Camera();
 
-    void draw(Mesh*, const GLuint&);
-    void setDirection(double, double);
-    void setLens(double, double, double, double);
-    void setPosition(double, double, double);
+    void attachTo( I_Moveable* );
+    void draw( Mesh*, const GLuint& );
+    void setLens( double, double, double, double );
 
 
 
@@ -30,19 +30,22 @@ public:
 protected:
 
 private:
+
+    I_Moveable* attachee;
+
+    float CameraFrustrumFieldOfView;
+    float CameraFrustrumAspectRatio;
+    float CameraFrustrumNearPlane;
+    float CameraFrustrumFarPlane;
+
     glm::vec3 CameraPosition;
     glm::vec3 CameraDirection;
     glm::vec3 CameraLookAt;
     glm::vec3 CameraTop;
 
     glm::mat4 FinalMatrix;
-    glm::mat4 PositionMatrix;
     glm::mat4 LensMatrix;
-
-    float CameraFrustrumFieldOfView;
-    float CameraFrustrumAspectRatio;
-    float CameraFrustrumNearPlane;
-    float CameraFrustrumFarPlane;
+    glm::mat4 PositionMatrix;
 
     GLint viewproj_location;
     GLint _currentProgram;
@@ -57,8 +60,8 @@ private:
     void findSlotOnGPU();
     void refreshIntoGPU();
 
-
-
+    void setDirection( double, double );
+    void setPosition( double, double, double );
 };
 
 #endif // CAMERA_H

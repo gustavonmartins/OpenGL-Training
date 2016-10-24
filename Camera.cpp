@@ -5,13 +5,18 @@ Camera::Camera():
     viewproj_location(-1),
     _currentProgram(-1),
     lensDirty(true),
-    positionDirty(true) {
+    positionDirty(true),
+    attachee(nullptr) {
 
 }
 
 
 Camera::~Camera() {
     //dtor
+}
+
+void Camera::attachTo(I_Moveable* newAttachee){
+    if (nullptr!=newAttachee){attachee=newAttachee;}
 }
 
 void Camera::draw(Mesh* meshToDraw, const GLuint& renderProgram) {
@@ -25,6 +30,8 @@ void Camera::draw(Mesh* meshToDraw, const GLuint& renderProgram) {
         }
     }
     if (programIsValid) {
+        setPosition(attachee->getPosition().axis_one,attachee->getPosition().axis_two,attachee->getPosition().axis_three);
+        setDirection(attachee->getOrientation().axis_one,attachee->getOrientation().axis_two);
         refreshIntoGPU();
         meshToDraw->draw(_currentProgram);
     }

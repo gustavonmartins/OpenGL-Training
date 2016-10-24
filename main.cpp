@@ -81,10 +81,10 @@ void startup() {
     glDepthFunc(GL_LEQUAL);
 
     myCam.setLens(90, float(g_gl_width) / float(g_gl_height), 0.001, 1000);
-    stone->setMaxSpeed(1);
+    stone->setMaxSpeed(-1);
     stone->setSpeedComposition(1, 0, 0);
-    stone2->setMaxSpeed(2);
-    stone2->setSpeedComposition(1, .5, 0);
+    stone2->setMaxSpeed(0.5);
+    stone2->setSpeedComposition(1, 0, 0);
 
 
 }
@@ -125,8 +125,8 @@ void render(GLfloat bgcolor[],
         glUniform4fv(colour_location, 1, &ColourMatrix[0]);
     }
 
-    myCam.setPosition(myX, myY, myZ);
-    myCam.setDirection(heading, pitch);
+    //myCam.setPosition(myX, myY, myZ);
+    //myCam.setDirection(heading, pitch);
 
 
 
@@ -183,7 +183,8 @@ int main () {
     myMesh = new Mesh(&myCubeMesh);
     myGround = new Mesh(&myFloorMesh);
     stone = new Moveable(0.0f, 0.0f, 0.0f, 0.0f);
-    stone2 = new Moveable(1.0f, 1.0f, 1.0f, 0.0f);
+    stone2 = new Moveable(-20.0f, -10.0f, 1.0f, 0.0f);
+    myCam.attachTo(mySelf);
 
 
 
