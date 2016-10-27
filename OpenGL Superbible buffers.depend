@@ -353,3 +353,116 @@
 	<string.h>
 	<glad/glad.h>
 
+1477208110 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/graphics/gl/Mesh.cpp
+	"Mesh.h"
+	<iostream>
+
+1477339656 /home/gustavo/Documents/ProgrammingProjects/puppieswar/src/graphics/gl/Mesh.h
+	<vector>
+	<glad/glad.h>
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/ext.hpp>
+	"../../I_Moveable.h"
+
+1477208109 /home/gustavo/Documents/ProgrammingProjects/puppieswar/src/I_Moveable.h
+
+1477208110 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/graphics/gl/ShaderCompiler.cpp
+	"ShaderCompiler.h"
+	<fstream>
+	<iostream>
+	<sstream>
+	<stdexcept>
+
+1477208110 /home/gustavo/Documents/ProgrammingProjects/puppieswar/src/graphics/gl/ShaderCompiler.h
+	<glad/glad.h>
+	<string>
+	<vector>
+
+1477208109 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/I_Moveable.cpp
+	"I_Moveable.h"
+
+1477208109 source:/home/gustavo/Documents/ProgrammingProjects/puppieswar/src/Moveable.cpp
+	"Moveable.hpp"
+	<iostream>
+	<cmath>
+
+1477208109 /home/gustavo/Documents/ProgrammingProjects/puppieswar/src/Moveable.hpp
+	<vector>
+	"I_Moveable.h"
+
+1477325478 source:/home/gustavo/Documents/ProgrammingProjects/OpenGL-Training/Camera.cpp
+	"Camera.h"
+	<iostream>
+
+1477329971 /home/gustavo/Documents/ProgrammingProjects/OpenGL-Training/Camera.h
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/ext.hpp>
+	<glad/glad.h>
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/ext.hpp>
+	"src/graphics/gl/Mesh.h"
+	"src/I_Moveable.h"
+
+1477208049 source:/home/gustavo/Documents/ProgrammingProjects/OpenGL-Training/GameController.cpp
+	<GLFW/glfw3.h>
+
+1477255364 source:/home/gustavo/Documents/ProgrammingProjects/OpenGL-Training/gl_utils.cpp
+	"gl_utils.h"
+	<stdio.h>
+	<time.h>
+	<string.h>
+	<assert.h>
+	<stdexcept>
+	<iostream>
+
+1477250490 /home/gustavo/Documents/ProgrammingProjects/OpenGL-Training/gl_utils.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<stdarg.h>
+
+1477250490 source:/home/gustavo/Documents/ProgrammingProjects/OpenGL-Training/GLManager.cpp
+	<glad/glad.h>
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+
+1477554357 source:/home/gustavo/Documents/ProgrammingProjects/OpenGL-Training/main.cpp
+	"gl_utils.h"
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<cmath>
+	<assert.h>
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<vector>
+	<SFML/System.hpp>
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/ext.hpp>
+	"Camera.h"
+	"src/Moveable.hpp"
+	"GameController.cpp"
+	"GLManager.cpp"
+	"src/graphics/gl/Mesh.h"
+	"src/graphics/gl/ShaderCompiler.h"
+
+1477208049 /home/gustavo/Documents/ProgrammingProjects/OpenGL-Training/GameController.cpp
+	<GLFW/glfw3.h>
+
+1477250490 /home/gustavo/Documents/ProgrammingProjects/OpenGL-Training/GLManager.cpp
+	<glad/glad.h>
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+

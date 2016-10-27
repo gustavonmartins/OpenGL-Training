@@ -125,11 +125,6 @@ void render(GLfloat bgcolor[],
         glUniform4fv(colour_location, 1, &ColourMatrix[0]);
     }
 
-    //myCam.setPosition(myX, myY, myZ);
-    //myCam.setDirection(heading, pitch);
-
-
-
     myCam.draw(myGround, currentProgram);
     myMesh->attachToPosition(stone);
     myCam.draw(myMesh, currentProgram);
